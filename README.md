@@ -1,9 +1,9 @@
 # vimfiles
-After many years using vim, I decided to organize my knowledge and put my vimviles available. I haven't to many plugins and cofigurations done for now, mainly because I just started to configure a new machine with all my plugins again (but is hard to remember all!). No pain anymore.
+After many years using Vim and having to configurate all plugins over and over again every time that I decide to change my OS. I decided to organize and my vimfiles available. I haven't to many plugins and cofigurations done now (because I'm gonna update as needed). No pain anymore :sweat:.
 
 <p align="center"><img src="https://dl.dropboxusercontent.com/s/a99zsf9nwtk0qob/Screen%20Shot%202017-02-17%20at%2009.06.33.png"VimFiles"></p>
 
-##Using
+##Installing
 
 ```shell
 git clone --recursive https://github.com/pedrocesar-ti/vimfiles.git ~/vimfiles
