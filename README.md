@@ -8,7 +8,7 @@ Used by
 I've created a repository (also forked from a good idea) to config my machine called [pedrocesar-ti/machine](https://github.com/pedrocesar-ti/machine), and there I guarantee the installation of all tools needed and copy vimfiles installation, even if you are in a MacOSX or a Debian bassed Linux.
 
 ##Installing
-``console
+```console
 $ wget https://github.com/pedrocesar-ti/vimfiles/archive/master.zip
 $ unzip master.zip
 $ cd vimfiles-master/
