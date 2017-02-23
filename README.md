@@ -4,12 +4,11 @@ After many years using Vim and having to configurate all plugins over and over a
 <p align="center"><img src="https://dl.dropboxusercontent.com/s/a99zsf9nwtk0qob/Screen%20Shot%202017-02-17%20at%2009.06.33.png"VimFiles"></p>
 
 ##Installing
-
-```shell
-git clone --recursive https://github.com/pedrocesar-ti/vimfiles.git ~/vimfiles
-ln -s ~/vimfiles ~/.vim
-ln -s ~/vimfiles/vimrc ~/.vimrc
-vim +BundleInstall
+``console
+$ wget https://github.com/pedrocesar-ti/vimfiles/archive/master.zip
+$ unzip master.zip
+$ cd vimfiles-master/
+$ ./setup.sh
 ```
 
 Enjoy! :)
