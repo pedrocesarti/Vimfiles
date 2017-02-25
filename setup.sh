@@ -1,9 +1,9 @@
 #!/bin/bash
 
 ## Download the vimfiles from Github
-git clone --recursive https://github.com/pedrocesar-ti/vimfiles.git ~/.vimfiles
+git clone --recursive https://github.com/pedrocesar-ti/Vimfiles.git ~/.Vimfiles
 
-ln -s ~/.vimfiles ~/.vim
-ln -s ~/.vimfiles/vimrc ~/.vimrc
+ln -s ~/.Vimfiles ~/.vim
+ln -s ~/.Vimfiles/vimrc ~/.vimrc
 
 vim +BundleInstall +qall
