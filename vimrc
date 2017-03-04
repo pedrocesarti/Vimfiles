@@ -2,11 +2,12 @@
 set t_Co=256
 syntax on
 set background=dark
-
 set nocompatible              " be iMproved, required
-filetype off                  " required
+set syn=auto 
+set showmatch
 
-" set the runtime path to include Vundle and initialize
+filetype on                  " required
+
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
@@ -25,6 +26,11 @@ Plugin 'rodjek/vim-puppet'
 call vundle#end()
 
 filetype plugin indent on
+
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab 
 
 " Brief help for Vundle
 " :PluginList       - lists configured plugins
