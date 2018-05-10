@@ -27,10 +27,14 @@ call vundle#end()
 
 filetype plugin indent on
 
-set tabstop=4
+set tabstop=8
 set shiftwidth=4
 set softtabstop=4
 set expandtab 
+set autoindent
+set smartindent
+set smarttab
+set number
 
 " Brief help for Vundle
 " :PluginList       - lists configured plugins
